@@ -1,0 +1,46 @@
+.main-nav {
+  display: flex;
+  padding: 12px;
+  justify-content: space-between;
+  border-bottom: 1px solid $light-gray;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+
+}
+
+.left-nav > ul > li > button {
+  color: black;
+  background-color: white;
+  margin-right: 3px;
+}
+
+.right-nav > ul > li {
+  margin-left: 5px;
+
+}
+
+.right-nav > ul > li:last-of-type > button {
+  color: black;
+  background-color: white;
+}
+
+.left-nav > ul > li > button:hover,
+.right-nav > ul > li:last-of-type button:hover {
+  background-color: $lightest-gray;
+}
+
+.left-nav span {
+  margin: 10px;
+}
+
+
+.right-nav i {
+  font-size: 18px;
+}
+
+.left-nav i {
+  font-size: 12px;
+}
