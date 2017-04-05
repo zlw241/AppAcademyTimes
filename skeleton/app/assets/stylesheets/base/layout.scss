@@ -11,6 +11,7 @@ body {
   margin: 0 auto;
   font-family: $serif;
   font-size: 12px;
+  line-height: 1.2;
 }
 
 button {
@@ -58,4 +59,8 @@ hr {
 
 .hidden {
   display: none;
+}
+
+.thumbnail {
+  height: 110px;
 }
